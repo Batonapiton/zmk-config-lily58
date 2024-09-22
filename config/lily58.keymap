@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#define EXCL_NUM1 (NUMBER_1)
-#define AT_NUM2 (NUMBER_2)
+#define EXC_NUM1 (NUMBER_1)
+#define A_NUM2 (NUMBER_2)
 
 / {
     combos {
