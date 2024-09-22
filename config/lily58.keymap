@@ -10,7 +10,7 @@
 
 #define EXCL_N1 (N1)
 #define AT_N2 (N2)
-#define HASH_N3_N (N3)
+#define HSH_N3_N (N3)
 #define SEMIC_N4_DLR (N4)
 #define PER_N5 (N5)
 #define COLON_N6_CRT (N6)
