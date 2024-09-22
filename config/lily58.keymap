@@ -8,8 +8,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#define EXCL_NUM1 (N1)
-#define AT_NUM2 (N2)
+#define EXC_NUM1 (N1)
+#define A_NUM2 (N2)
 #define HSH_NUM3_N (N3)
 #define SEMIC_NUM4_DLR (N4)
 #define PER_NUM5 (N5)
