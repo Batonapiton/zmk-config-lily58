@@ -1,4 +1,3 @@
-#define TEST (N1)
 #define EXC_NUM1 (N1)
 #define A_NUM2 (N2)
 #define HSH_NUM3_N (N3)
