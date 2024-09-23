@@ -7,27 +7,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <mykeys.h>
 
-#define TEST (N1)
-#define EXC_NUM1 (N1)
-#define A_NUM2 (N2)
-#define HSH_NUM3_N (N3)
-#define SEMIC_NUM4_DLR (N4)
-#define PER_NUM5 (N5)
-#define COLON_NUM6_CRT (N6)
-#define QUMARK_NUM7 (N7)
-#define STR_NUM8 (N8)
-#define LBRKT_NUM9 (N9)
-#define RBRKT_NUM0 (N0)
-#define APSTRPH_TLD_GRV (GRAVE)
-#define AMRSND_GRV (SLASH)
-#define GRV_TLD_GRV_IO_LEFTBOTTOM (NON_US_BACKSLASH)
-#define DBLQT_SLSH (BACKSLASH)
-#define LBRKT_LBRC (LEFT_BRACKET)
-#define RBRKT_RBRC (RIGHT_BRACKET)
-#define BCKSLHS_DLR (SEMICOLON)
-#define PP_CRT (SINGLE_QUOTE)
-#define AMPRSND_GRV_U (SLASH)
 
 / {
     combos {
