@@ -87,11 +87,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC    &kp EXC_NUM1     &kp A_NUM2       &kp HSH_NUM3_N     &kp SEMIC_NUM4_DLR  &kp PER_NUM5                         &kp COLON_NUM6_CRT  &kp QUMARK_NUM7  &kp STR_NUM8        &kp LBRKT_NUM9   &kp RBRKT_NUM0  &kp GRAVE
-&kp TAB    &kp Q            &kp W            &kp E              &kp R               &kp T                                &kp Y               &kp U            &kp I               &kp O            &kp P           &kp MINUS
-&kp LCTRL  &hrm LEFT_GUI A  &hrm LEFT_ALT S  &hrm LEFT_SHIFT D  &hrm LCTRL F        &kp G                                &kp H               &hrm RCTRL J     &hrm RIGHT_SHIFT K  &hrm LEFT_ALT L  &hrm RGUI SEMI  &kp SQT
-&kp LSHFT  &kp Z            &kp X            &kp C              &kp V               &kp B         &kp LBKT     &kp RBKT  &kp N               &kp M            &kp DOT             &dot_questionM   &kp FSLH        &kp RSHFT
-                                             &kp LALT           &kp LGUI            &mo 1         &kp SPACE    &kp RET   &mo 2               &kp BSPC         &kp DELETE
+&kp ESC         &kp EXC_NUM1     &kp A_NUM2       &kp HSH_NUM3_N     &kp SEMIC_NUM4_DLR  &kp PER_NUM5                                    &kp COLON_NUM6_CRT  &kp QUMARK_NUM7_AMPERSND  &kp STR_NUM8        &kp LBRKT_NUM9   &kp RBRKT_NUM0   &kp DBLQT_SLSH_BCKSLSH_PIPE
+&kp TAB         &kp Q            &kp W            &kp E              &kp R               &kp T                                           &kp Y               &kp U                     &kp I               &kp O            &kp P            &kp LBRKT_LBRC
+&kp LEFT_SHIFT  &hrm LEFT_GUI A  &hrm LEFT_ALT S  &hrm LEFT_SHIFT D  &hrm LCTRL F        &kp G                                           &kp H               &hrm RCTRL J              &hrm RIGHT_SHIFT K  &hrm LEFT_ALT L  &hrm RGUI RU_ZH  &kp RU_E
+&kp LCTRL       &kp Z            &kp X            &kp C              &kp V               &kp B         &kp RBRKT_RBRC    &kp RBRKT_RBRC  &kp N               &kp M                     &kp DOT             &kp COMMA        &kp RU_U         &kp RSHFT
+                                                  &kp LALT           &kp LGUI            &mo 1         &kp SPACE         &kp RET         &mo 2               &kp BSPC                  &kp DELETE
             >;
         };
 
@@ -104,11 +104,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2      &bt BT_SEL 3       &bt BT_SEL 4                    &trans         &trans      &trans                &trans                 &trans        &bt BT_CLR
-&trans     &kp APOS      &kp LESS_THAN  &kp GREATER_THAN  &kp DOUBLE_QUOTES  &kp KP_DOT                      &kp AMPERSAND  &trans      &kp LBKT              &kp RBKT               &kp PERCENT   &trans
-&kp GRAVE  &kp EXCL      &kp KP_MINUS   &kp PLUS          &kp KP_EQUAL       &kp HASH                        &kp PIPE       &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans     &kp CARET     &kp KP_SLASH   &kp ASTERISK      &kp BACKSLASH      &trans        &trans    &trans  &kp TILDE      &kp DOLLAR  &kp LBRC              &kp RBRC               &kp AT        &trans
-                                        &trans            &trans             &trans        &trans    &trans  &trans         &trans      &trans
+&trans                   &bt BT_SEL 0            &bt BT_SEL 1                     &bt BT_SEL 2      &bt BT_SEL 3                     &bt BT_SEL 4                      &trans                               &trans                  &trans                  &trans                  &trans                    &bt BT_CLR
+&trans                   &kp APSTRPH_TLD_GRV     &kp LESS_THAN                    &kp GREATER_THAN  &kp DBLQT_SLSH_BCKSLSH_PIPE      &kp DOT                           &kp RA(QUMARK_NUM7_AMPERSND)         &kp SEMIC_NUM4_DLR      &kp RA(LBRKT_LBRC)      &kp RA(RBRKT_RBRC)      &kp PER_NUM5              &trans
+&kp RA(APSTRPH_TLD_GRV)  &kp EXC_NUM1            &kp MINUS                        &kp PLUS          &kp EQUAL                        &kp HSH_NUM3_N                    &kp RA(LS(DBLQT_SLSH_BCKSLSH_PIPE))  &kp COLON_NUM6_CRT      &kp LBRKT_NUM9          &kp RBRKT_NUM0          &kp QUMARK_NUM7_AMPERSND  &trans
+&trans                   &kp RA(COLON_NUM6_CRT)  &kp LS(DBLQT_SLSH_BCKSLSH_PIPE)  &kp STR_NUM8      &kp RA(DBLQT_SLSH_BCKSLSH_PIPE)  &trans          &trans    &trans  &kp LS(APSTRPH_TLD_GRV)              &kp RA(SEMIC_NUM4_DLR)  &kp LS(RA(LBRKT_LBRC))  &kp LS(RA(RBRKT_RBRC))  &kp A_NUM2                &trans
+                                                                                  &trans            &trans                           &trans          &trans    &trans  &trans                               &trans                  &trans
             >;
         };
 
@@ -122,7 +122,7 @@
 
             bindings = <
 &kp F1      &kp F2        &kp F3        &kp F4            &kp F5          &kp F6                    &kp F7          &kp F8          &kp F9           &kp F10          &kp F11  &kp F12
-&kp K_MUTE  &kp N1        &kp N2        &kp N3            &kp N4          &kp N5                    &kp END         &kp PAGE_DOWN   &kp PG_UP        &kp HOME         &trans   &kp SCROLLLOCK
+&kp K_MUTE  &trans        &trans        &trans            &trans          &trans                    &kp END         &kp PAGE_DOWN   &kp PG_UP        &kp HOME         &trans   &kp SCROLLLOCK
 &trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &trans   &trans
 &trans      &trans        &trans        &trans            &trans          &trans  &trans    &trans  &trans          &trans          &kp PAUSE_BREAK  &trans           &trans   &trans
                                         &trans            &trans          &trans  &trans    &trans  &trans          &trans          &trans
