@@ -72,7 +72,7 @@
             label = "BRACKET_TD";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LBRKT_LBRC>, <&kp RBRKT_RBRC>;
+            bindings = <&kp RA(LBRKT_LBRC)>, <&kp RA(RBRKT_RBRC)>;
         };
 
         braces_td: braces_td {
@@ -80,7 +80,7 @@
             label = "BRACES_TD";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LS(LBRKT_LBRC)>, <&kp LS(RBRKT_RBRC)>;
+            bindings = <&kp LS(RA(LBRKT_LBRC))>, <&kp LS(RA(RBRKT_RBRC))>;
         };
     };
 
@@ -130,11 +130,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans        &kp C_VOL_DN    &kp C_MUTE        &kp C_VOLUME_UP   &trans                    &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &kp K_STOP    &kp K_PREVIOUS  &kp K_PLAY_PAUSE  &kp K_NEXT        &trans                    &kp END         &kp PAGE_DOWN   &kp PG_UP     &kp HOME         &trans  &kp SCROLLLOCK
-&trans  &kp LEFT_GUI  &kp LEFT_ALT    &kp LEFT_SHIFT    &kp LEFT_CONTROL  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &kp LC(Z)     &kp LC(X)       &kp LC(C)         &kp LC(V)         &trans  &trans    &trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)     &kp LC(V)        &trans  &trans
-                                      &trans            &trans            &mo 4   &trans    &trans  &trans          &trans          &trans
+&trans  &trans        &kp C_VOL_DN  &kp C_MUTE      &kp C_VOLUME_UP   &trans                    &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &kp C_STOP    &kp C_PREV    &kp C_PP        &kp C_NEXT        &trans                    &kp END         &kp PAGE_DOWN   &kp PG_UP     &kp HOME         &trans  &kp SCROLLLOCK
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &kp LC(Z)     &kp LC(X)     &kp LC(C)       &kp LC(V)         &trans  &trans    &trans  &kp LC(Z)       &kp LC(X)       &kp LC(C)     &kp LC(V)        &trans  &trans
+                                    &trans          &trans            &mo 4   &trans    &trans  &trans          &trans          &trans
             >;
         };
 
