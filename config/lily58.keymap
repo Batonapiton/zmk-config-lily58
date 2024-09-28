@@ -125,7 +125,7 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1      &kp F2        &kp F3        &kp F4          &kp F5            &kp F6                    &kp F7          &kp F8          &kp F9           &kp F10          &kp F11  &kp F12
+&trans      &kp F2        &kp F3        &kp F4          &kp F5            &kp F6                    &kp F7          &kp F8          &kp F9           &kp F10          &kp F11  &kp F12
 &kp K_MUTE  &trans        &trans        &trans          &trans            &trans                    &kp END         &kp PAGE_DOWN   &kp PG_UP        &kp HOME         &trans   &kp SCROLLLOCK
 &trans      &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &trans                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW     &kp RIGHT_ARROW  &trans   &trans
 &trans      &kp LC(Z)     &kp LC(X)     &kp LC(C)       &kp LC(V)         &trans  &trans    &trans  &trans          &trans          &kp PAUSE_BREAK  &trans           &trans   &trans
@@ -133,7 +133,7 @@
             >;
         };
 
-        layer_3 {
+        Func {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                     &trans  &trans     &trans     &trans    &trans    &trans
 &trans  &trans  &kp F7  &kp F8  &kp F9  &kp F10                    &trans  &trans     &trans     &trans    &trans    &trans
