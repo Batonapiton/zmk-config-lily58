@@ -27,27 +27,27 @@
 
         zx-undo {
             bindings = <&kp LC(Z)>;
-            key-positions = <36 37>;
+            key-positions = <37 38>;
         };
 
         cut {
             bindings = <&kp LC(X)>;
-            key-positions = <36 38>;
+            key-positions = <37 39>;
         };
 
         copy {
             bindings = <&kp LC(C)>;
-            key-positions = <38 37>;
+            key-positions = <38 39>;
         };
 
         paste {
             bindings = <&kp LC(V)>;
-            key-positions = <38 39>;
+            key-positions = <39 40>;
         };
 
         select-all {
             bindings = <&kp LC(A)>;
-            key-positions = <39 36>;
+            key-positions = <37 40>;
         };
     };
 
