@@ -126,7 +126,7 @@
 
         colemak {
             bindings = <
-&kp ESC         &kp EXC_NUM1  &kp A_NUM2       &kp HSH_NUM3_N     &kp SEMIC_NUM4_DLR  &kp PER_NUM5                                                      &kp COLON_NUM6_CRT  &kp QUMARK_NUM7_AMPERSND  &kp STR_NUM8       &kp LBRKT_NUM9   &kp RBRKT_NUM0   &tog 0
+&kp ESC         &kp EXC_NUM1  &kp A_NUM2       &kp HSH_NUM3_N     &kp SEMIC_NUM4_DLR  &kp PER_NUM5                                                      &kp COLON_NUM6_CRT  &kp QUMARK_NUM7_AMPERSND  &kp STR_NUM8       &kp LBRKT_NUM9   &kp RBRKT_NUM0   &tog 1
 &kp TAB         &kp Q         &kp W            &kp F              &kp P               &kp B                                                             &kp J               &kp L                     &kp U              &kp Y            &kp SEMI         &kp RBRKT_RBRC
 &kp LEFT_SHIFT  &kp A         &hrm LEFT_ALT R  &hrm LEFT_SHIFT S  &hrm LCTRL T        &kp G                                                             &kp M               &hrm LCTRL N              &hrm LEFT_SHIFT E  &hrm LEFT_ALT I  &hrm LEFT_GUI O  &kp RU_E
 &kp LCTRL       &kp Z         &kp X            &kp C              &kp D               &kp V         &kp APSTRPH_TLD_GRV    &kp DBLQT_SLSH_BCKSLSH_PIPE  &kp K               &kp H                     &kp COMMA          &kp DOT          &kp LBRKT_LBRC   &kp RU_U
@@ -143,11 +143,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans                   &trans                           &trans                       &trans                                   &trans                                &trans                               &trans                  &trans          &trans                  &trans        &trans
-&trans  &kp RA(APSTRPH_TLD_GRV)  &kp QUMARK_NUM7_AMPERSND         &kp EXC_NUM1                 &kp COLON_NUM6_CRT                       &kp SEMIC_NUM4_DLR                    &kp RA(QUMARK_NUM7_AMPERSND)         &kp A_NUM2              &kp LESS_THAN   &kp GREATER_THAN        &trans        &trans
-&trans  &trans                   &hrm RIGHT_BRACKET LEFT_BRACKET  &hrm RIGHT_BRACE LEFT_BRACE  &hrm RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp EQUAL                             &kp RA(LS(DBLQT_SLSH_BCKSLSH_PIPE))  &kp LEFT_CONTROL        &kp LEFT_SHIFT  &kp LEFT_ALT            &kp LEFT_GUI  &trans
-&trans  &trans                   &kp RA(DBLQT_SLSH_BCKSLSH_PIPE)  &kp MINUS                    &kp LS(DBLQT_SLSH_BCKSLSH_PIPE)          &kp UNDER           &trans    &trans  &kp LS(APSTRPH_TLD_GRV)              &kp RA(SEMIC_NUM4_DLR)  &kp PER_NUM5    &kp RA(COLON_NUM6_CRT)  &trans        &trans
-                                                                  &trans                       &trans                                   &trans              &trans    &trans  &trans                               &trans                  &trans
+&trans  &trans                   &trans                              &trans                                      &trans                                           &trans                                &trans                               &trans                  &trans          &trans                  &trans        &trans
+&trans  &kp RA(APSTRPH_TLD_GRV)  &kp QUMARK_NUM7_AMPERSND            &kp EXC_NUM1                                &kp COLON_NUM6_CRT                               &kp SEMIC_NUM4_DLR                    &kp RA(QUMARK_NUM7_AMPERSND)         &kp A_NUM2              &kp LESS_THAN   &kp GREATER_THAN        &trans        &trans
+&trans  &trans                   &hrm RA(RBRKT_RBRC) RA(LBRKT_LBRC)  &hrm LS(RA(RBRKT_RBRC)) RA(LS(LBRKT_LBRC))  &hrm LS(RIGHT_PARENTHESIS) LS(LEFT_PARENTHESIS)  &kp EQUAL                             &kp RA(LS(DBLQT_SLSH_BCKSLSH_PIPE))  &kp LEFT_CONTROL        &kp LEFT_SHIFT  &kp LEFT_ALT            &kp LEFT_GUI  &trans
+&trans  &trans                   &kp RA(DBLQT_SLSH_BCKSLSH_PIPE)     &kp MINUS                                   &kp LS(DBLQT_SLSH_BCKSLSH_PIPE)                  &kp UNDER           &trans    &trans  &kp LS(APSTRPH_TLD_GRV)              &kp RA(SEMIC_NUM4_DLR)  &kp PER_NUM5    &kp RA(COLON_NUM6_CRT)  &trans        &trans
+                                                                     &trans                                      &trans                                           &trans              &trans    &trans  &trans                               &trans                  &trans
             >;
         };
 
