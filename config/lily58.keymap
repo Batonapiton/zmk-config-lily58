@@ -113,11 +113,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans  &trans                   &trans                           &trans        &trans                           &trans                                &trans                               &trans                  &trans          &trans                  &trans        &trans
-&trans  &kp RA(APSTRPH_TLD_GRV)  &kp QUMARK_NUM7_AMPERSND         &kp EXC_NUM1  &kp COLON_NUM6_CRT               &kp SEMIC_NUM4_DLR                    &kp RA(QUMARK_NUM7_AMPERSND)         &kp A_NUM2              &kp LESS_THAN   &kp GREATER_THAN        &trans        &trans
-&trans  &trans                   &bracket_td                      &braces_td    &parent_tapdance                 &kp EQUAL                             &kp RA(LS(DBLQT_SLSH_BCKSLSH_PIPE))  &kp LEFT_CONTROL        &kp LEFT_SHIFT  &kp LEFT_ALT            &kp LEFT_GUI  &trans
-&trans  &trans                   &kp RA(DBLQT_SLSH_BCKSLSH_PIPE)  &kp MINUS     &kp LS(DBLQT_SLSH_BCKSLSH_PIPE)  &kp UNDER           &trans    &trans  &kp LS(APSTRPH_TLD_GRV)              &kp RA(SEMIC_NUM4_DLR)  &kp PER_NUM5    &kp RA(COLON_NUM6_CRT)  &trans        &trans
-                                                                  &trans        &trans                           &trans              &trans    &trans  &trans                               &trans                  &trans
+&trans  &trans                   &trans                           &trans                       &trans                                   &trans                                &trans                               &trans                  &trans          &trans                  &trans        &trans
+&trans  &kp RA(APSTRPH_TLD_GRV)  &kp QUMARK_NUM7_AMPERSND         &kp EXC_NUM1                 &kp COLON_NUM6_CRT                       &kp SEMIC_NUM4_DLR                    &kp RA(QUMARK_NUM7_AMPERSND)         &kp A_NUM2              &kp LESS_THAN   &kp GREATER_THAN        &trans        &trans
+&trans  &trans                   &hrm RIGHT_BRACKET LEFT_BRACKET  &hrm RIGHT_BRACE LEFT_BRACE  &hrm RIGHT_PARENTHESIS LEFT_PARENTHESIS  &kp EQUAL                             &kp RA(LS(DBLQT_SLSH_BCKSLSH_PIPE))  &kp LEFT_CONTROL        &kp LEFT_SHIFT  &kp LEFT_ALT            &kp LEFT_GUI  &trans
+&trans  &trans                   &kp RA(DBLQT_SLSH_BCKSLSH_PIPE)  &kp MINUS                    &kp LS(DBLQT_SLSH_BCKSLSH_PIPE)          &kp UNDER           &trans    &trans  &kp LS(APSTRPH_TLD_GRV)              &kp RA(SEMIC_NUM4_DLR)  &kp PER_NUM5    &kp RA(COLON_NUM6_CRT)  &trans        &trans
+                                                                  &trans                       &trans                                   &trans              &trans    &trans  &trans                               &trans                  &trans
             >;
         };
 
