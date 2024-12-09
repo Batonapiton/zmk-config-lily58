@@ -49,6 +49,11 @@
             bindings = <&kp LC(A)>;
             key-positions = <37 40>;
         };
+
+        togame {
+            bindings = <&tog 5>;
+            key-positions = <36 11>;
+        };
     };
 
     behaviors {
@@ -142,11 +147,11 @@
 
         colemak {
             bindings = <
-&kp ESC         &kp EXC_NUM1  &kp A_NUM2        &kp HSH_NUM3_N      &kp SEMIC_NUM4_DLR  &kp PER_NUM5                                                      &kp COLON_NUM6_CRT  &kp QUMARK_NUM7_AMPERSND  &kp STR_NUM8        &kp LBRKT_NUM9    &kp RBRKT_NUM0    &tog 1
-&kp TAB         &kp Q         &kp W             &kp F               &kp P               &kp B                                                             &kp J               &kp L                     &kp U               &kp Y             &kp SEMI          &kp RBRKT_RBRC
-&kp LEFT_SHIFT  &kp A         &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T       &kp G                                                             &kp M               &hrmr LCTRL N             &hrmr LEFT_SHIFT E  &hrmr LEFT_ALT I  &hrmr LEFT_GUI O  &kp RU_E
-&kp LCTRL       &kp Z         &kp X             &kp C               &kp D               &kp V         &kp APSTRPH_TLD_GRV    &kp DBLQT_SLSH_BCKSLSH_PIPE  &kp K               &kp H                     &kp COMMA           &kp DOT           &kp LBRKT_LBRC    &kp RU_U
-                                                &kp LALT            &mo 3               &mo 2         &kp SPACE              &kp RET                      &mo 4               &kp BACKSPACE             &kp DELETE
+&kp ESC         &kp EXC_NUM1      &kp A_NUM2        &kp HSH_NUM3_N      &kp SEMIC_NUM4_DLR  &kp PER_NUM5                                                      &kp COLON_NUM6_CRT  &kp QUMARK_NUM7_AMPERSND  &kp STR_NUM8        &kp LBRKT_NUM9    &kp RBRKT_NUM0    &tog 1
+&kp TAB         &kp Q             &kp W             &kp F               &kp P               &kp B                                                             &kp J               &kp L                     &kp U               &kp Y             &kp SEMI          &kp RBRKT_RBRC
+&kp LEFT_SHIFT  &hrmr A LEFT_WIN  &hrml LEFT_ALT R  &hrml LEFT_SHIFT S  &hrml LCTRL T       &kp G                                                             &kp M               &hrmr LCTRL N             &hrmr LEFT_SHIFT E  &hrmr LEFT_ALT I  &hrmr LEFT_GUI O  &kp RU_E
+&kp LCTRL       &kp Z             &kp X             &kp C               &kp D               &kp V         &kp APSTRPH_TLD_GRV    &kp DBLQT_SLSH_BCKSLSH_PIPE  &kp K               &kp H                     &kp COMMA           &kp DOT           &kp LBRKT_LBRC    &kp RU_U
+                                                    &kp LALT            &mo 3               &mo 2         &kp SPACE              &kp RET                      &mo 4               &kp BACKSPACE             &kp DELETE
             >;
         };
 
@@ -191,6 +196,16 @@
 &trans      &trans        &kp F4        &kp F5  &kp F6  &kp F11                    &kp PLUS            &hrmr LCTRL LS(SEMIC_NUM4_DLR)  &hrmr LEFT_SHIFT LS(PER_NUM5)  &hrmr LEFT_ALT LS(COLON_NUM6_CRT)  &hrmr LEFT_GUI MINUS             &trans
 &trans      &trans        &kp F1        &kp F2  &kp F3  &kp F12  &trans    &trans  &kp LS(RBRKT_NUM0)  &kp LS(EXC_NUM1)                &kp LS(A_NUM2)                 &kp LS(HSH_NUM3_N)                 &kp RA(DBLQT_SLSH_BCKSLSH_PIPE)  &trans
                                         &trans  &trans  &trans   &trans    &trans  &trans              &trans                          &trans
+            >;
+        };
+
+        game {
+            bindings = <
+&kp ESC         &kp EXC_NUM1  &kp A_NUM2  &kp HSH_NUM3_N  &kp SEMIC_NUM4_DLR  &kp PER_NUM5                                                      &kp COLON_NUM6_CRT  &kp QUMARK_NUM7_AMPERSND  &kp STR_NUM8  &kp LBRKT_NUM9  &kp RBRKT_NUM0  &tog 1
+&kp TAB         &kp Q         &kp W       &kp F           &kp P               &kp B                                                             &kp J               &kp L                     &kp U         &kp Y           &kp SEMI        &kp RBRKT_RBRC
+&kp LEFT_SHIFT  &kp A         &kp R       &kp S           &kp T               &kp G                                                             &kp M               &kp N                     &kp E         &kp I           &kp O           &kp RU_E
+&kp LCTRL       &kp Z         &kp X       &kp C           &kp D               &kp V         &kp APSTRPH_TLD_GRV    &kp DBLQT_SLSH_BCKSLSH_PIPE  &kp K               &kp H                     &kp COMMA     &kp DOT         &kp LBRKT_LBRC  &kp RU_U
+                                          &kp LALT        &mo 3               &mo 2         &kp SPACE              &kp RET                      &mo 4               &kp BACKSPACE             &kp DELETE
             >;
         };
     };
